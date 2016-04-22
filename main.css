@@ -1,0 +1,82 @@
+.presentation{
+	
+  border: 1px solid #000;
+  
+		
+}
+.main h3{
+ 
+    border-bottom: solid 1px black;
+}
+.main p {
+
+	
+}
+.content {
+	border-left: solid 1px Teal;
+	margin-left: 20%;
+	display: inline;
+	display: block;
+	text-indent: 20px;
+	width: 24%;
+}
+.image p{
+	vertical-align: text-bottom;
+	position: absolute;
+	bottom: 0;
+	font-family: Verdana,serif;
+}
+.image{
+	
+	position:absolute;
+	background-color: white;
+	right:20%;
+	top: 10% ;
+	webkit-filter: contrast(80%);
+	filter: contrast(80%);
+	background-image:url("picture.jpg"); 
+	background-size: 14em 14em;
+	background-repeat:  no-repeat; 
+	width: 14em;
+	 height: 20em;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+.container{
+background-repeat:  no-repeat;
+background-size: 100% 100%;
+background-image: linear-gradient(to right, blanchedalmond 0%, white 100%) /*url("bg.jpg")*/;
+}
+.info{
+	font-family: Verdana,serif;
+	background-color: white;
+	width: 100%;
+	top: 10%;
+	height 300px;
+	float: left;
+    border: 1px solid #000;
+    text-align: center;
+	position: :relative;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.about{
+	text-indent: 20px;
+	color: #3d434c;
+	font-family: "Trebuchet MS";
+	font-size: "2rem";
+	font-weight: bold;
+	width :40%;
+	float: left;
+
+}
+.main{
+	
+	font-family: Calibri,Verdana;
+clear:both;	
+}
